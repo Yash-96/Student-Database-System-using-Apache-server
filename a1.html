@@ -1,0 +1,44 @@
+<html>
+<head><title>Student Registration</title></head>
+<style>
+body{
+text-align: center;
+background: yellow;
+border: 1px dotted black;
+padding:35px;
+background: yellow;
+}
+a{
+background-color: red;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+</style>
+<body>
+<h3>Insert Student Detail</h3>
+	<form method="POST" action="a1.php">
+
+		USN : <input type="text" name="usn" required autofocus="on"/></br></br>
+		Name : <input type="text" name="name" required/></br></br>
+		Semester : <input type="number" min="1" max="8" step= "1" value="1" name="sem" /></br></br>
+		Department : <input list="dept" name="dept"/>
+<datalist id="dept">
+<option value="CSE"/>
+<option value="ISE"/>
+<option value="ECE"/>
+<option value="TCE"/>
+</datalist></br></br>
+		CGPA : <input type="text" name="cgpa" required/></br></br>
+		<input type="submit" name="sub" /></br></br>
+
+	</form>
+<a href="a.html">HOME PAGE</a></br></br>
+</body>
+</html>
+
+
